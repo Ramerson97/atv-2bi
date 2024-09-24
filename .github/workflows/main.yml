@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - main
+    pull_request:
+      branchs: [main]
+
+      
+  jobs:
+    job1:
+      name: job 1
+        runs-on: ubuntu-latest
+
+     steps:
+        -name: Passo 1
+           run: echo "Passo1"
+
+       -name: Paaso2
+         run: echo "Passso2 "
+
+      -name: Passo...
+        run: echo "passo..."
+
+  job2:
+    name: passo1
+      run: echo "passo1"
+
+   -name: passo2
+     run: echo "passo 2"
+
+  -name: passo...
+    run: echo "passo..."
+      
